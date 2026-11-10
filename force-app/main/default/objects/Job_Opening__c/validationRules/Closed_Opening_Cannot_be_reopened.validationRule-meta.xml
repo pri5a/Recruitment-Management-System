@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Opening_Cannot_be_reopened</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL(  PRIORVALUE(Status__c ) , &quot;Closed&quot;) ,   NOT(ISPICKVAL( Status__c , &quot;Closed&quot;)))</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>A closed job opening cannot be reopened.</errorMessage>
+</ValidationRule>
