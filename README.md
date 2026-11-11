@@ -4,12 +4,12 @@
 The Recruitment Management System is a Salesforce-based application designed to manage job openings, candidate information and job applications. The project focuses on implementing role-based access, field-level security and record-level sharing using Salesforce configuration and Apex.
 
 ## Key Features
-**Job Opening Management:** Create and manage job openings, including job details, status, recruiter and assigned hiring manager.
-**Candidate Management:** Maintain candidate information and track candidate details.
-**Job Application Management:** Associate candidates with job openings and track application statuses, interview feedback and hiring recommendations.
-**Role-Based Access:** Configure access for Recruiters, Hiring Managers and Recruitment Executives using profiles and permission sets.
-**Field-Level Security:** Control access to sensitive fields based on user responsibilities.
-**Apex-Managed Sharing:** Grant record-level access to Hiring Managers based on their assigned job openings.
+- **Job Opening Management:** Create and manage job openings, including job details, status, recruiter and assigned hiring manager.
+- **Candidate Management:** Maintain candidate information and track candidate details.
+- **Job Application Management:** Associate candidates with job openings and track application statuses, interview feedback and hiring recommendations.
+- **Role-Based Access:** Configure access for Recruiters, Hiring Managers and Recruitment Executives using profiles and permission sets.
+- **Field-Level Security:** Control access to sensitive fields based on user responsibilities.
+- **Apex-Managed Sharing:** Grant record-level access to Hiring Managers based on their assigned job openings.
 
 ## Data Model
 The application uses three custom objects:
@@ -26,17 +26,17 @@ Applied field-level security to restrict access to sensitive candidate and job a
 Implemented Apex-managed sharing to grant Hiring Managers access to records associated with their assigned job openings.
 
 ## Technology Stack
-Salesforce Platform
-Apex
-Apex Triggers
-Apex-Managed Sharing
-Lightning Experience
-Custom Objects and Fields
-Profiles and Permission Sets
-Organization-Wide Defaults (OWD)
-Field-Level Security (FLS)
-Visual Studio Code
-Salesforce CLI
+- Salesforce Platform
+- Apex
+- Apex Triggers
+- Apex-Managed Sharing
+- Lightning Experience
+- Custom Objects and Fields
+- Profiles and Permission Sets
+- Organization-Wide Defaults (OWD)
+- Field-Level Security (FLS)
+- Visual Studio Code
+- Salesforce CLI
 
 ## Application Screenshots
 1. Job Openings
